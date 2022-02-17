@@ -1,6 +1,6 @@
 {
   "name": "ya-locator-plugin",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "plugin for location",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

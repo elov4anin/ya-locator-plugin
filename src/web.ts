@@ -3,8 +3,9 @@ import { WebPlugin } from '@capacitor/core';
 import type { VerYaLocatorPlugin } from './definitions';
 
 export class VerYaLocatorWeb extends WebPlugin implements VerYaLocatorPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
+
+  async requestCoordinates(options: { version: string, url: string, api_key: string }): Promise<{ version: string, url: string, api_key: string }> {
     console.log('ECHO', options);
-    return options;
+    throw this.unimplemented('Not implemented on web.');
   }
 }

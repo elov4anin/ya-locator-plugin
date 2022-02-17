@@ -13,24 +13,24 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`requestCoordinates(...)`](#requestcoordinates)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### requestCoordinates(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+requestCoordinates(options: { version: string; url: string; api_key: string; }) => Promise<{ version: string; url: string; api_key: string; }>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param         | Type                                                            |
+| ------------- | --------------------------------------------------------------- |
+| **`options`** | <code>{ version: string; url: string; api_key: string; }</code> |
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+**Returns:** <code>Promise&lt;{ version: string; url: string; api_key: string; }&gt;</code>
 
 --------------------
 
