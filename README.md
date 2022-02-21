@@ -1,6 +1,9 @@
 # ya-locator-plugin
 
-plugin for location
+Plug-in for the capacitor to determine the location of the device according to cellular and Wi-Fi networks
+via [Yandex locator](https://yandex.ru/dev/locator/)  without using GPS
+
+### <strong>Only android</strong>
 
 ## Install
 
@@ -35,3 +38,29 @@ requestCoordinates(options: { version: string; url: string; api_key: string; }) 
 --------------------
 
 </docgen-api>
+
+### Listener
+
+Plugin emitting event "currentLocationByGsm" current coordinates mobile device
+
+`
+{
+"position": {
+"latitude": 55.743675,
+"longitude": 37.5646301,
+"altitude": 0.0,
+"precision": 701.71643,
+"altitude_precision": 30.0,
+"type": "gsm"
+}
+}
+`
+
+
+Add listener in your code
+
+`
+(VerYaLocator as any).addListener('currentLocationByGsm', (data: any) => {
+console.log('currentLocation', data);
+})
+`
