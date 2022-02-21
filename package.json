@@ -9,9 +9,7 @@
   "files": [
     "android/src/main/",
     "android/build.gradle",
-    "dist/",
-    "ios/Plugin/",
-    "YaLocatorPlugin.podspec"
+    "dist/"
   ],
   "author": "Chugaev Sergey",
   "license": "MIT",
@@ -47,7 +45,6 @@
     "@capacitor/android": "^3.0.0",
     "@capacitor/core": "^3.0.0",
     "@capacitor/docgen": "^0.0.18",
-    "@capacitor/ios": "^3.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -68,9 +65,6 @@
     "extends": "@ionic/eslint-config/recommended"
   },
   "capacitor": {
-    "ios": {
-      "src": "ios"
-    },
     "android": {
       "src": "android"
     }
