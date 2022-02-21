@@ -41,7 +41,7 @@ requestCoordinates(options: { version: string; url: string; api_key: string; }) 
 
 ### Listener
 
-Plugin emitting event "currentLocationByGsm" current coordinates mobile device
+Plugin emitting event <strong>"currentLocation"</strong> current coordinates mobile device
 
 `
 {

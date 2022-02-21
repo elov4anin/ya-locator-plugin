@@ -81,7 +81,7 @@ public class VerYaLocatorPlugin extends Plugin {
             JSObject ret = new JSObject();
             ret.put("code", code);
             ret.put("data", message);
-            notifyListeners("currentLocationByGsm", ret);
+            notifyListeners("currentLocation", ret);
         });
 
         call.resolve(this.locator.result);
