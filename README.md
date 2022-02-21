@@ -60,7 +60,7 @@ Plugin emitting event <strong>"currentLocation"</strong> current coordinates mob
 Add listener in your code
 
 `
-(VerYaLocator as any).addListener('currentLocationByGsm', (data: any) => {
+(VerYaLocator as any).addListener('currentLocation', (data: any) => {
 console.log('currentLocation', data);
 })
 `
