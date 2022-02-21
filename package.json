@@ -1,6 +1,6 @@
 {
   "name": "ya-locator-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "plugin for location",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elov4anin/capacitor.yandex.geolocation.git"
+    "url": "git+https://github.com/elov4anin/ya-locator-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/elov4anin/capacitor.yandex.geolocation/issues"
+    "url": "https://github.com/elov4anin/ya-locator-plugin.git/issues"
   },
   "keywords": [
     "capacitor",
